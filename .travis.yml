@@ -30,7 +30,7 @@ before_cache:
 # These commands are executed before the scripts are executed
 install:
   # Install all dependencies listed in your package.json file
-  - yarn
+  - npm run init
 
 script:
   - echo "Start Build"
